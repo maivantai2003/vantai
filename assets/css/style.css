@@ -199,6 +199,10 @@ nav{
     display: flex;
     gap: 20px;
 }
+.about-btn a{
+    text-decoration: none;
+    color: black;
+}
 .featured-text-btn>.blue-btn{
     background: var(--first-color);
     color: var(--color-white);
@@ -339,6 +343,7 @@ h3{
 }
 .featured-text-btn a{
     text-decoration: none;
+    color: black;
 }
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
@@ -367,6 +372,10 @@ h3{
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+}
+.project-container .project-box a{
+    text-decoration: none;
+    color: black;
 }
 .project-box{
     position: relative;
