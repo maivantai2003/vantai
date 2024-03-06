@@ -337,7 +337,9 @@ h3{
 .about-btn button:hover{
     background: var(--first-color-hover);
 }
-
+.featured-text-btn a{
+    text-decoration: none;
+}
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
     margin: 10px;
